@@ -1,0 +1,495 @@
+rule_score,ml_score,final_score,risk_level,triggered_rules,explanation,case_id,merchant_id,transaction_count,amount,location_mismatch,velocity_score,failed_attempts
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00001,MERCHANT_8270,28,4542.23,0,10.0,1
+25,,25,LOW,['Location mismatch detected'],"Risk Level: LOW (Score: 25.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+",CASE_00002,MERCHANT_9322,46,17517.79,1,21.23,0
+20,,20,LOW,['High transaction count: 68'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 68
+",CASE_00003,MERCHANT_7420,68,116.66,0,39.99,0
+45,,45,MEDIUM,"['High transaction count: 70', 'Location mismatch detected']","Risk Level: MEDIUM (Score: 45.0/100)
+
+Triggered Rules:
+  • High transaction count: 70
+  • Location mismatch detected
+",CASE_00004,MERCHANT_3747,70,3044.67,1,19.97,1
+45,,45,MEDIUM,"['Location mismatch detected', 'Abnormal velocity: 80.84']","Risk Level: MEDIUM (Score: 45.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+  • Abnormal velocity: 80.84
+",CASE_00005,MERCHANT_4556,20,14868.44,1,80.84,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00006,MERCHANT_3612,44,1378.94,0,61.0,1
+35,,35,MEDIUM,"['High transaction count: 53', 'Repeated failures: 5 attempts']","Risk Level: MEDIUM (Score: 35.0/100)
+
+Triggered Rules:
+  • High transaction count: 53
+  • Repeated failures: 5 attempts
+",CASE_00007,MERCHANT_4152,53,3670.55,0,18.49,5
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00008,MERCHANT_8629,19,231.41,0,38.87,0
+25,,25,LOW,['Location mismatch detected'],"Risk Level: LOW (Score: 25.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+",CASE_00009,MERCHANT_5887,18,759.49,1,7.46,2
+40,,40,MEDIUM,"['Location mismatch detected', 'Repeated failures: 4 attempts']","Risk Level: MEDIUM (Score: 40.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+  • Repeated failures: 4 attempts
+",CASE_00010,MERCHANT_6258,24,6212.56,1,60.6,4
+20,,20,LOW,['Abnormal velocity: 88.72'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 88.72
+",CASE_00011,MERCHANT_4104,34,6539.38,0,88.72,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00012,MERCHANT_4840,30,1345.84,0,4.04,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00013,MERCHANT_8035,17,11906.33,0,41.04,1
+20,,20,LOW,['High transaction count: 58'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 58
+",CASE_00014,MERCHANT_4157,58,4895.54,0,10.55,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00015,MERCHANT_6450,25,11866.56,0,64.77,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00016,MERCHANT_6864,31,899.56,0,48.48,1
+20,,20,LOW,['Abnormal velocity: 97.18'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 97.18
+",CASE_00017,MERCHANT_1663,34,6070.43,0,97.18,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00018,MERCHANT_8554,44,1676.25,0,60.96,1
+20,,20,LOW,['High transaction count: 63'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 63
+",CASE_00019,MERCHANT_9164,63,3785.07,0,55.29,1
+20,,20,LOW,['Abnormal velocity: 98.34'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 98.34
+",CASE_00020,MERCHANT_5218,17,8126.31,0,98.34,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00021,MERCHANT_7287,29,208.15,0,67.76,0
+40,,40,MEDIUM,"['High transaction count: 55', 'Abnormal velocity: 94.05']","Risk Level: MEDIUM (Score: 40.0/100)
+
+Triggered Rules:
+  • High transaction count: 55
+  • Abnormal velocity: 94.05
+",CASE_00022,MERCHANT_2986,55,2143.66,0,94.05,1
+20,,20,LOW,['High transaction count: 61'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 61
+",CASE_00023,MERCHANT_5736,61,3898.41,0,22.86,0
+35,,35,MEDIUM,"['High transaction count: 54', 'Repeated failures: 3 attempts']","Risk Level: MEDIUM (Score: 35.0/100)
+
+Triggered Rules:
+  • High transaction count: 54
+  • Repeated failures: 3 attempts
+",CASE_00024,MERCHANT_9815,54,3771.4,0,9.31,3
+80,,80,HIGH,"['High transaction count: 53', 'Location mismatch detected', 'Abnormal velocity: 85.09', 'Repeated failures: 3 attempts']","Risk Level: HIGH (Score: 80.0/100)
+
+Triggered Rules:
+  • High transaction count: 53
+  • Location mismatch detected
+  • Abnormal velocity: 85.09
+  • Repeated failures: 3 attempts
+",CASE_00025,MERCHANT_4170,53,2591.84,1,85.09,3
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00026,MERCHANT_3557,46,18184.06,0,30.54,1
+45,,45,MEDIUM,"['High transaction count: 51', 'Location mismatch detected']","Risk Level: MEDIUM (Score: 45.0/100)
+
+Triggered Rules:
+  • High transaction count: 51
+  • Location mismatch detected
+",CASE_00027,MERCHANT_1956,51,1968.17,1,64.96,2
+15,,15,LOW,['Repeated failures: 3 attempts'],"Risk Level: LOW (Score: 15.0/100)
+
+Triggered Rules:
+  • Repeated failures: 3 attempts
+",CASE_00028,MERCHANT_5555,23,5057.58,0,58.99,3
+20,,20,LOW,['High transaction count: 66'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 66
+",CASE_00029,MERCHANT_5893,66,1308.03,0,57.2,1
+45,,45,MEDIUM,"['High transaction count: 61', 'Location mismatch detected']","Risk Level: MEDIUM (Score: 45.0/100)
+
+Triggered Rules:
+  • High transaction count: 61
+  • Location mismatch detected
+",CASE_00030,MERCHANT_8339,61,15387.81,1,37.02,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00031,MERCHANT_3327,48,19643.71,0,30.57,0
+20,,20,LOW,['Abnormal velocity: 93.62'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 93.62
+",CASE_00032,MERCHANT_2184,12,928.59,0,93.62,2
+20,,20,LOW,['Abnormal velocity: 84.87'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 84.87
+",CASE_00033,MERCHANT_8455,20,1749.85,0,84.87,0
+20,,20,LOW,['High transaction count: 66'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 66
+",CASE_00034,MERCHANT_8343,66,1758.51,0,25.62,1
+65,,65,MEDIUM,"['High transaction count: 68', 'Location mismatch detected', 'Abnormal velocity: 89.0']","Risk Level: MEDIUM (Score: 65.0/100)
+
+Triggered Rules:
+  • High transaction count: 68
+  • Location mismatch detected
+  • Abnormal velocity: 89.0
+",CASE_00035,MERCHANT_3950,68,6052.75,1,89.0,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00036,MERCHANT_6919,37,183.02,0,54.26,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00037,MERCHANT_7457,30,1806.75,0,32.67,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00038,MERCHANT_1004,48,9226.53,0,41.14,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00039,MERCHANT_7799,37,7928.27,0,43.9,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00040,MERCHANT_9932,45,421.65,0,68.85,0
+25,,25,LOW,['Location mismatch detected'],"Risk Level: LOW (Score: 25.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+",CASE_00041,MERCHANT_1512,16,1009.76,1,63.83,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00042,MERCHANT_1580,31,2720.19,0,35.6,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00043,MERCHANT_6188,32,963.86,0,76.34,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00044,MERCHANT_8421,27,2541.68,0,63.51,0
+80,,80,HIGH,"['High transaction count: 123', 'Location mismatch detected', 'Abnormal velocity: 94.43', 'Repeated failures: 3 attempts']","Risk Level: HIGH (Score: 80.0/100)
+
+Triggered Rules:
+  • High transaction count: 123
+  • Location mismatch detected
+  • Abnormal velocity: 94.43
+  • Repeated failures: 3 attempts
+",CASE_00045,MERCHANT_8390,123,4783.63,1,94.43,3
+25,,25,LOW,['Location mismatch detected'],"Risk Level: LOW (Score: 25.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+",CASE_00046,MERCHANT_3427,38,8335.45,1,62.59,2
+20,,20,LOW,['Abnormal velocity: 81.45'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 81.45
+",CASE_00047,MERCHANT_5380,29,9317.63,0,81.45,0
+25,,25,LOW,['Location mismatch detected'],"Risk Level: LOW (Score: 25.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+",CASE_00048,MERCHANT_4267,41,2141.14,1,3.92,2
+20,,20,LOW,['High transaction count: 51'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 51
+",CASE_00049,MERCHANT_6988,51,2660.4,0,77.64,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00050,MERCHANT_8357,48,1362.96,0,73.99,0
+25,,25,LOW,['Location mismatch detected'],"Risk Level: LOW (Score: 25.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+",CASE_00051,MERCHANT_6917,37,1928.68,1,38.92,0
+45,,45,MEDIUM,"['High transaction count: 55', 'Location mismatch detected']","Risk Level: MEDIUM (Score: 45.0/100)
+
+Triggered Rules:
+  • High transaction count: 55
+  • Location mismatch detected
+",CASE_00052,MERCHANT_8400,55,2191.79,1,67.68,1
+25,,25,LOW,['Location mismatch detected'],"Risk Level: LOW (Score: 25.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+",CASE_00053,MERCHANT_9335,14,5581.62,1,79.16,1
+15,,15,LOW,['Repeated failures: 3 attempts'],"Risk Level: LOW (Score: 15.0/100)
+
+Triggered Rules:
+  • Repeated failures: 3 attempts
+",CASE_00054,MERCHANT_6161,30,27522.09,0,73.7,3
+20,,20,LOW,['Abnormal velocity: 82.19'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 82.19
+",CASE_00055,MERCHANT_1953,24,6036.04,0,82.19,1
+35,,35,MEDIUM,"['Abnormal velocity: 81.28', 'Repeated failures: 3 attempts']","Risk Level: MEDIUM (Score: 35.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 81.28
+  • Repeated failures: 3 attempts
+",CASE_00056,MERCHANT_6541,41,2344.19,0,81.28,3
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00057,MERCHANT_4486,9,1429.91,0,43.45,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00058,MERCHANT_5849,31,289.75,0,11.75,2
+25,,25,LOW,['Location mismatch detected'],"Risk Level: LOW (Score: 25.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+",CASE_00059,MERCHANT_1504,17,1265.41,1,1.22,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00060,MERCHANT_5175,24,24784.14,0,55.39,2
+25,,25,LOW,['Location mismatch detected'],"Risk Level: LOW (Score: 25.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+",CASE_00061,MERCHANT_6645,23,12340.5,1,5.79,1
+20,,20,LOW,['High transaction count: 70'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 70
+",CASE_00062,MERCHANT_5468,70,1042.02,0,35.34,1
+35,,35,MEDIUM,"['Abnormal velocity: 91.09', 'Repeated failures: 3 attempts']","Risk Level: MEDIUM (Score: 35.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 91.09
+  • Repeated failures: 3 attempts
+",CASE_00063,MERCHANT_5835,13,5771.65,0,91.09,3
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00064,MERCHANT_1009,43,10051.96,0,2.64,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00065,MERCHANT_9415,27,4209.18,0,3.68,0
+80,,80,HIGH,"['High transaction count: 68', 'Location mismatch detected', 'Abnormal velocity: 99.97', 'Repeated failures: 4 attempts']","Risk Level: HIGH (Score: 80.0/100)
+
+Triggered Rules:
+  • High transaction count: 68
+  • Location mismatch detected
+  • Abnormal velocity: 99.97
+  • Repeated failures: 4 attempts
+",CASE_00066,MERCHANT_1404,68,10002.13,1,99.97,4
+25,,25,LOW,['Location mismatch detected'],"Risk Level: LOW (Score: 25.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+",CASE_00067,MERCHANT_8245,27,1161.1,1,75.7,0
+20,,20,LOW,['Abnormal velocity: 83.14'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 83.14
+",CASE_00068,MERCHANT_8239,25,3447.42,0,83.14,0
+40,,40,MEDIUM,"['Location mismatch detected', 'Repeated failures: 4 attempts']","Risk Level: MEDIUM (Score: 40.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+  • Repeated failures: 4 attempts
+",CASE_00069,MERCHANT_2077,44,2728.26,1,63.94,4
+45,,45,MEDIUM,"['High transaction count: 65', 'Location mismatch detected']","Risk Level: MEDIUM (Score: 45.0/100)
+
+Triggered Rules:
+  • High transaction count: 65
+  • Location mismatch detected
+",CASE_00070,MERCHANT_9017,65,2876.6,1,34.83,2
+45,,45,MEDIUM,"['High transaction count: 80', 'Location mismatch detected']","Risk Level: MEDIUM (Score: 45.0/100)
+
+Triggered Rules:
+  • High transaction count: 80
+  • Location mismatch detected
+",CASE_00071,MERCHANT_5854,80,3074.89,1,76.89,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00072,MERCHANT_5164,41,3392.46,0,63.34,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00073,MERCHANT_2906,10,2556.63,0,18.01,1
+20,,20,LOW,['High transaction count: 84'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 84
+",CASE_00074,MERCHANT_2887,84,5506.45,0,19.23,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00075,MERCHANT_6124,19,3978.28,0,35.6,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00076,MERCHANT_8240,19,3280.66,0,51.17,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00077,MERCHANT_5143,35,6896.79,0,20.93,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00078,MERCHANT_9150,33,6374.05,0,14.77,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00079,MERCHANT_6122,37,566.81,0,53.26,0
+40,,40,MEDIUM,"['High transaction count: 56', 'Abnormal velocity: 84.07']","Risk Level: MEDIUM (Score: 40.0/100)
+
+Triggered Rules:
+  • High transaction count: 56
+  • Abnormal velocity: 84.07
+",CASE_00080,MERCHANT_9152,56,1006.2,0,84.07,0
+20,,20,LOW,['High transaction count: 74'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 74
+",CASE_00081,MERCHANT_1125,74,3450.18,0,53.71,2
+45,,45,MEDIUM,"['High transaction count: 54', 'Location mismatch detected']","Risk Level: MEDIUM (Score: 45.0/100)
+
+Triggered Rules:
+  • High transaction count: 54
+  • Location mismatch detected
+",CASE_00082,MERCHANT_7738,54,2058.27,1,60.76,0
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00083,MERCHANT_1876,46,1276.61,0,48.78,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00084,MERCHANT_4735,34,418.18,0,41.04,1
+20,,20,LOW,['High transaction count: 52'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 52
+",CASE_00085,MERCHANT_8489,52,18457.85,0,72.29,2
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00086,MERCHANT_7316,39,1035.39,0,42.54,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00087,MERCHANT_3048,16,838.32,0,53.26,0
+20,,20,LOW,['High transaction count: 52'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 52
+",CASE_00088,MERCHANT_1009,52,3980.57,0,68.46,0
+35,,35,MEDIUM,"['High transaction count: 59', 'Repeated failures: 3 attempts']","Risk Level: MEDIUM (Score: 35.0/100)
+
+Triggered Rules:
+  • High transaction count: 59
+  • Repeated failures: 3 attempts
+",CASE_00089,MERCHANT_2342,59,3189.28,0,34.89,3
+40,,40,MEDIUM,"['High transaction count: 52', 'Abnormal velocity: 92.64']","Risk Level: MEDIUM (Score: 40.0/100)
+
+Triggered Rules:
+  • High transaction count: 52
+  • Abnormal velocity: 92.64
+",CASE_00090,MERCHANT_9567,52,1147.08,0,92.64,1
+20,,20,LOW,['Abnormal velocity: 81.46'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 81.46
+",CASE_00091,MERCHANT_6468,43,893.58,0,81.46,1
+15,,15,LOW,['Repeated failures: 3 attempts'],"Risk Level: LOW (Score: 15.0/100)
+
+Triggered Rules:
+  • Repeated failures: 3 attempts
+",CASE_00092,MERCHANT_5227,30,4437.38,0,45.19,3
+20,,20,LOW,['Abnormal velocity: 90.65'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • Abnormal velocity: 90.65
+",CASE_00093,MERCHANT_5670,16,2421.66,0,90.65,1
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00094,MERCHANT_6765,37,6556.85,0,16.67,2
+40,,40,MEDIUM,"['Location mismatch detected', 'Repeated failures: 3 attempts']","Risk Level: MEDIUM (Score: 40.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+  • Repeated failures: 3 attempts
+",CASE_00095,MERCHANT_1922,29,1428.35,1,3.35,3
+0,,0,LOW,[],"Risk Level: LOW (Score: 0.0/100)
+
+No significant risk indicators detected.
+",CASE_00096,MERCHANT_7028,44,9368.72,0,39.73,1
+20,,20,LOW,['High transaction count: 56'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 56
+",CASE_00097,MERCHANT_3371,56,5920.01,0,25.18,0
+20,,20,LOW,['High transaction count: 56'],"Risk Level: LOW (Score: 20.0/100)
+
+Triggered Rules:
+  • High transaction count: 56
+",CASE_00098,MERCHANT_7166,56,14714.12,0,58.62,1
+25,,25,LOW,['Location mismatch detected'],"Risk Level: LOW (Score: 25.0/100)
+
+Triggered Rules:
+  • Location mismatch detected
+",CASE_00099,MERCHANT_8790,49,12551.15,1,2.3,2
+65,,65,MEDIUM,"['High transaction count: 71', 'Location mismatch detected', 'Abnormal velocity: 92.56']","Risk Level: MEDIUM (Score: 65.0/100)
+
+Triggered Rules:
+  • High transaction count: 71
+  • Location mismatch detected
+  • Abnormal velocity: 92.56
+",CASE_00100,MERCHANT_7024,71,6667.45,1,92.56,1
